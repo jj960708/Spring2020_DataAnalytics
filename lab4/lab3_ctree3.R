@@ -1,0 +1,3 @@
+fitK <- ctree(Kyphosis ~ Age + Number + Start, data=kyphosis)
+plot(fitK, main="Conditional Inference Tree for Kyphosisâ???)
+plot(fitK, main="Conditional Inference Tree for Kyphosis",type="simple")
