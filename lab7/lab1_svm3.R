@@ -1,6 +1,6 @@
 data(iris)
 attach(iris)
-
+library(e1071)
 model <- svm(Species ~ ., data = iris)
 
 x <- subset(iris, select = -Species)
